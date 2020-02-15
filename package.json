@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "react blog",
   "main": "index.js",
-  "engines": {
+  "engine": {
     "node": "12.14,0",
     "npm": "6.13.4"
   },
