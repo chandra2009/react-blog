@@ -8,7 +8,6 @@ const config = require('./config/key');
 
 const { User } = require('./models/user');
 const { auth } = require('./middleware/auth');
-
 mongoose
   .connect(config.mongoURI, { useNewUrlParser: true })
   .then(() => console.log('DB connected'))
